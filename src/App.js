@@ -27,7 +27,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Monsters Rolodex</h1>
+        <h1>Monsters Rolodex JavaScript</h1>
         <SearchBox
           placheoder='seach monsters'
           handleChange={({ target: { value } }) => this.setState({ searchField: value })}
